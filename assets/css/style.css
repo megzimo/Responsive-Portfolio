@@ -224,6 +224,7 @@ input[type=submit] {
 @media screen and (max-width: 640px){
   #logo{
     background-color: #123456;
+    width: 100%;
   }
   #masthead{
     position: static;
@@ -248,11 +249,14 @@ input[type=submit] {
   }
 }
 
-@media screen and (max-width: 980){
+@media screen and (max-width: 980px){
   #logo{
     background-color: #346c7a;
   }
   #masthead{
     position: static;
+  }
+  #main-container{
+    padding-top: 5px;
   }
 }
